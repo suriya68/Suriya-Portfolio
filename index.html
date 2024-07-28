@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Responsive Portfolio Website HTML CSS| CodingSuriya</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <title>Responsive Portfolio Website HTML CSS| CodingSuriya</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Fontawesome CDN Link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    /* Default styles for navigation and scroll button */
+    nav, .scroll-button {
+      transition: background-color 0.3s ease;
+    }
+
+    /* Styles for navigation and scroll button when scrolled */
+    .scrolled nav {
+      background-color: rgba(255, 136, 0, 0.952); /* Change to your desired color */
+    }
+
+
+    .scrolled .scroll-button {
+      background-color: rgba(255, 208,136, 0, 0.952); /* Change to your desired color */
+    }
+  </style>
+</head>
+<body>
+  <!-- Move to up button -->
+  <div class="scroll-button">
+    <a href="#home"><i class="fas fa-arrow-up"></i></a>
+  </div>
+
+  <nav>
+    <div class="navbar">
+      <div class="logo"><a href="#">Portfolio.</a></div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#Projects">Projects</a></li>
+        <li><a href="#internships">Internship</a></li>
+        <li><a href="#Certifications">Certifications</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <div class="cancel-btn">
+          <i class="fas fa-times"></i>
+        </div>
+      </ul>
+      <div class="media-icons">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="menu-btn">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+
+
+  
+
+
+  <!-- Your content goes here -->
+
+  <script>
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 50) { // You can adjust this value as needed
+        document.body.classList.add('scrolled');
+      } else {
+        document.body.classList.remove('scrolled');
+      }
+    });
+  </script>
+</body>
+</html>
+
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="text">
+          <div class="text-one">Hello,</div>
+          <div class="text-two">I'm Suriya</div>
+          <div class="text-three">Data Analyst</div>
+          <div class="text-four">From Chennai</div>
+        </div>
+        <div class="button">
+          <a href="https://www.linkedin.com/in/suriya-s-a07b99247/" download="Suriya S Resume.pdf">
+            <button>Hire Me</button>
+          </a>
+          <div class="button">
+          <a href="https://github.com/suriya68" target="_blank">
+              <button>My Projects</button>
+            </a>
+      
+      </div>
+    </section>
+
+  <!-- About Section Start -->
+<section class="about" id="about">
+  <div class="content">
+    <div class="title"><span>About Me</span></div>
+    <div class="about-details">
+      <div class="left">
+        <img src="images/about.jpg" alt="About Me" />
+      </div>
+      <div class="right">
+        <div class="topic">Designing Is My Passion</div>
+        <p>
+          Hi, I'm Suriya, an MSc Data Science graduate from Bishop Heber College, Trichy. I have hands-on experience with machine learning and data analysis projects, and I specialize in Python. As a fresher, I am eager to apply my skills in real-world scenarios and contribute to innovative projects.
+        </p>
+        <div class="button">
+          <a href="https://github.com/suriya68/Suriya-Resume/blob/main/Suriya%20S%20Resume.pdf" download="Suriya S Resume.pdf">
+            <button>Download CV</button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+    <!-- My Skill Section Start -->
+    <!-- Section Tag and Other Div will same where we need to put same CSS -->
+    <section class="skills" id="skills">
+      <div class="content">
+        <div class="title"><span>My Skills</span></div>
+        <div class="skills-details">
+          <div class="text">
+            <div class="topic">Skills Reflects Our Knowledge</div>
+            <p>As a fresher, I am eager to apply my knowledge and skills to real-world projects and contribute to innovative solutions. I am passionate about continuous learning and excited to collaborate with professionals in the field to make a meaningful impact.</p>
+            <div class="experience">
+              <div class="num">Only</div>
+              <div class="exp">
+                Internship <br />
+                Experience
+              </div>
+            </div>
+          </div>
+          <div class="boxes">
+            <div class="box">
+              <div class="topic">PYTHON</div>
+              <div class="per">90%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Machine Learning</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">SQL</div>
+              <div class="per">50%</div>
+            </div>
+            <div class="box">
+              <div class="topic">PowerBI,TableaU</div>
+              <div class="per">60%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Excel</div>
+              <div class="per">80%</div>
+            </div>
+            <div class="box">
+              <div class="topic">Deep Learning</div>
+              <div class="per">40%</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!--Projects Section Start -->
+    <section class="Projects" id="Projects">
+      <div class="content">
+        <div class="title"><span>Projects</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-Driving"></i>
+            </div>
+            <div class="topic" style="color: blue;">Driver Drowsiness Detection <i class="fas fa-car" style="margin-right: 5px;"></i></div></div>
+            <p>Driver drowsiness detection is a crucial application in the field of computer vision and machine learning. This project utilizes OpenCV, a powerful open-source library for computer vision, to monitor driver behavior and detect signs of drowsiness. By analyzing facial landmarks, eye movements, and blinking patterns, the system can identify when a driver is becoming drowsy and issue timely alerts to prevent potential accidents.</p>
+            
+            </p>
+          </div>
+
+          <div class="button">
+            <a href="https://github.com/suriya68/Drowsiness-Detection" target="_blank">
+              <button style="font-size: 12px; padding: 5px 10px;">Click to Project</button>
+              </a>
+
+
+
+     <!-- Credit Card Fraud Detection Project -->
+     <div class="box">
+      <div class="icon">
+        <div class="topic" style="color:blue;">Credit Card Fraud Detection  <i class="fas fa-credit-card" style="margin-right: 5px;"></i></div>
+      </div>
+      <p>Credit Card Fraud Detection is an essential project in the field of data science and machine learning. This project employs various machine learning algorithms to analyze transaction patterns and detect fraudulent activities. By using advanced techniques such as decision trees, random forests, and neural networks, the system can effectively identify suspicious transactions and minimize the risk of fraud. </p>
+    </div>
+    <div class="button">
+      <a href="https://github.com/suriya68/credit-card-fraud-detection" target="_blank">
+        <button style="font-size: 12px; padding: 5px 10px;">Click to Project</button>
+      </a>
+    </div>
+  </div>
+</div>
+</section>
+
+<!-- Internship Section Start -->
+<section class="Internships" id="internships">
+  <div class="content">
+    <div class="title"><span>Internships</span></div>
+    <div class="internship-box">
+      <div class="icon">
+        <i class="fas fa" style="margin-right: 5px;"></i>
+        <div class="topic"style="color:blue;">Airobosoft Products and Services</div>
+      </div>
+      <p><strong>Location:</strong> Bangalore<br>
+         <strong>Role:</strong> Machine Learning Intern<br>
+         <strong>Duration:</strong> 1 months</p>
+      <p>Developed a real-time driver drowsiness detection system using computer vision and deep 
+        learning, achieving 95% accuracy.</p>
+      <p>Integrated the solution with hardware for live monitoring and alert generation, enhancing road 
+        safety.</p>
+      <p>Conducted extensive testing and optimization, significantly reducing false positives and 
+        negatives.</p>
+      <p>Implemented real-time image processing applications during the internship.</p>
+    </div>
+  </div>
+</section>
+<!-- Internship Section End -->
+
+<!-- Certification Section Start -->
+<section class="Certifications" id="Certifications">
+  <div class="content">
+    <div class="title"><span>Certifications</span></div>
+    <div class="Certification-box">
+      <div class="icon">
+        <i class="fas fa" style="margin-right: 5px;"></i>
+        <div class="topic"style="color:blue">1.Machine Learning with Python</div>
+      </div>
+      <p><strong>Issued By:</strong> NPTEL<br>
+        <strong>Date:</strong> March 2023</p>
+     <a href="https://github.com/suriya68/Machine-learning-certificate" download="Machine_Learning_with_Python.pdf">View Certificate</a>
+   </div>
+    <div class="Certification-box">
+      <div class="icon">
+        <i class="fas fa" style="margin-right: 5px;"></i>
+        <div class="topic"style="color:blue">2.Data Analytics and Visualization</div>
+      </div>
+      <p><strong>Issued By:</strong> Accenture<br>
+        <strong>Date:</strong> January 2023</p>
+        <a href="https://github.com/suriya68/data-analytics-and-visualzation" download="Data_Analysis_with_Python.pdf">View Certificate</a>
+      </div>
+    <div class="Certification-box">
+      <div class="icon">
+        <i class="fas fa" style="margin-right: 5px;"></i>
+        <div class="topic"style="color:blue">3.SQL and Relational Databases</div>
+      </div>
+      <p><strong>Issued By:</strong> IBM<br>
+        <strong>Date:</strong> April 2023</p>
+        <a href="https://github.com/suriya68/SQL-Certificate" download="SQL_and_Relational_Databases.pdf">View Certificate</a>
+      </div>
+    </div>
+  </section>
+<!-- Certification Section End -->
+
+
+
+
+
+
+
+    <!-- My Services Section Start -->
+    <section class="services" id="services">
+      <div class="content">
+        <div class="title"><span>My Services</span></div>
+        <div class="boxes">
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-chart-pie"></i>
+            </div>
+            <div class="topic">Data Analysis and Visualization</div>
+            <p>*Analyzing large datasets to uncover insights.</p>
+            <p>*Creating interactive visualizations using PowerBI and other tools.</p>
+            <p>*Presenting data in a clear and actionable manner.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-brain"></i>
+            </div>
+            <div class="topic">Machine Learning Solutions</div>
+            <p>*Developing and implementing machine learning models.</p>
+            <p>*Projects such as Driver Drowsiness Detection and Credit Card Fraud Detection.</p>
+            <p>*Experience with TensorFlow, Scikit Learn, and Keras.</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="topic">Python Development</div>
+            <p>*Writing efficient and clean Python code.</p>
+            <p>*Building data-driven applications and scripts.</p>
+            <p>*Familiarity with libraries like Pandas, NumPy, and OpenCV.</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-database"></i>
+            </div>
+            <div class="topic">Database Management</div>
+            <p>*Working with SQL and NoSQL databases (Oracle SQL, MongoDB).</p>
+            <p>*Designing, querying, and managing databases.</p>
+            <p>*Ensuring data integrity and optimization.
+            </p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-filter"></i>
+            </div>
+            <div class="topic">Data Cleaning and Preprocessing</div>
+            <p>*Preparing data for analysis by handling missing values, outliers, and inconsistencies.</p>
+            <p>*Transforming raw data into a usable format.</p>
+          </div>
+          <div class="box">
+            <div class="icon">
+              <i class="fas fa-lightbulb"></i>
+            </div>
+            <div class="topic">Custom Data Science Solutions</div>
+            <p>*Tailoring data science solutions to meet specific business needs.</p>
+            <p>*Providing actionable insights and recommendations based on data analysis.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   <!-- Contact Me section Start -->
+   <section class="contact" id="contact">
+    <div class="content">
+      <div class="title"><span>Contact Me</span></div>
+      <div class="text">
+        <p>I'm always open to new opportunities and collaborations. Feel free to get in touch with me through any of the following methods:</p>
+        <ul>
+          <li><i class="fas fa-envelope"></i> <strong>Email:</strong> <a href="mailto:suriyasundharajan1@gmail.com">suriyasundharajan1@gmail.com</a></li>
+          <li><i class="fab fa-linkedin"></i> <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/suriya-s-a07b99247/" target="_blank">https://www.linkedin.com/in/suriya-s-a07b99247/</a></li>
+          <li><i class="fab fa-github"></i> <strong>GitHub:</strong> <a href="https://github.com/suriya68" target="_blank">https://github.com/suriya68</a></li>
+          <li><i class="fas fa-phone"></i> <strong>Phone:</strong> +91-6380535003</li>
+        </ul>
+        <div class="button">
+          <button onclick="window.location.href='mailto:suriyasundharajan1@gmail.com'">Let's Chat</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Your other content -->
+</body>
+</html>
+
+
+
+    <!-- Footer Section Start -->
+<footer>
+  <div class="social-icons">
+    <a href="https://github.com/suriya68" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/suriya-s-a07b99247/" target="_blank"><i class="fab fa-linkedin"></i></a>
+  </div>
+  <p>&copy; 2024 Suriya. All Rights Reserved.</p>
+</footer>
+
